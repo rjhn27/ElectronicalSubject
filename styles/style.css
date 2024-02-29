@@ -117,7 +117,9 @@ body {
 .photoProfile{
     height: 400px;
     display: flex;
-    justify-content: right;
+    justify-content: left;
+    margin-right: 20px;
+    position: relative;
 }
 
 .main {
@@ -204,6 +206,7 @@ body {
     object-fit: cover;
     border-radius: 10%;
     margin-bottom: 1rem;
+    position: relative;
 }
 
 .article-2 {
@@ -243,9 +246,17 @@ body {
     margin-top: 0;
 }
 
-.aside-2 img {
-    width: 100px;
-    height: 100px;
+.t1img {
+    width: 50%;
+    height: 65%;
+    object-fit: cover;
+    border-radius: 10%;
+    margin-bottom: 1rem;
+}
+
+.FotoRincian {
+    width: 50%;
+    height: 50%;
     object-fit: cover;
     border-radius: 10%;
     margin-bottom: 1rem;
@@ -289,8 +300,8 @@ body {
 }
 
 .aside-3 img {
-    width: 100px;
-    height: 100px;
+    width: 50%;
+    height: 50%;
     object-fit: cover;
     border-radius: 10%;
     margin-bottom: 1rem;
@@ -414,6 +425,7 @@ footer {
     .aside-2,
     .aside-3 {
         width: 100%;
+        position: absolute;
         margin-bottom: 20px;
     }
 }
