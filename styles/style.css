@@ -299,13 +299,22 @@ body {
     margin-top: 0;
 }
 
-.aside-3 img {
+.rfrns2 {
+    width: 82%;
+    height: 40%;
+    object-fit: cover;
+    border-radius: 10%;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+/* .aside-3 img {
     width: 50%;
     height: 50%;
     object-fit: cover;
     border-radius: 10%;
     margin-bottom: 1rem;
-}
+} */
 
 footer {
     background-color: #fff;
