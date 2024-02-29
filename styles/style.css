@@ -120,6 +120,9 @@ body {
     justify-content: left;
     margin-right: 20px;
     position: relative;
+    object-fit: cover;
+    border-radius: 10%;
+    margin-bottom: 1rem;
 }
 
 .main {
